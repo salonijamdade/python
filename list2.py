@@ -1,6 +1,6 @@
 a=input("enter one string")
-
-if a==a[::-1]:
+cleaned=a.strip()
+if cleaned==cleaned[::-1]:
     print("is palindrom")
 else:
     print("not palindrome")

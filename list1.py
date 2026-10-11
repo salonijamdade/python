@@ -1,6 +1,22 @@
-n=["*","#"]
+n=int(input("enter length of list"))
 
-for i in range(1,n+1):
-    for j in range(1,i+1):
-        print(j,end=" ")
-    print( )
+list=[]
+for i in range(n):
+    a=float(input("enter elements"))
+    list.append(a)
+
+print(list)
+sum=0
+for i in list:
+    sum=sum+i
+print(sum)
+
+
+b=int(input("insert element at the third position"))
+
+list.insert(2,b)
+
+print(list)
+
+
+
